@@ -5,7 +5,8 @@
 export module huffman;
 
 export import :node;
-export import :encoding_tree;
+export import :tree;
+export import :tree_builder;
 
 export namespace huffman {
 }

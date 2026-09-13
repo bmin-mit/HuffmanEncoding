@@ -1,11 +1,10 @@
 import std;
-import core;
+import huffman;
 
 int main() {
-    std::println("cos(pi) = {}", std::cos(std::numbers::pi));
-    std::println("pi = {}", std::numbers::pi);
+    auto tree = huffman::buildTreeFromStream(std::cin);
 
-    core::hello();
+    std::println("{}", *tree.root);
 
     return 0;
 }

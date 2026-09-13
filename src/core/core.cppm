@@ -4,6 +4,3 @@
 export module core;
 
 export import :errors;
-
-export namespace core {
-}
